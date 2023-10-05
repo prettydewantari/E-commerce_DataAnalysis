@@ -1,5 +1,3 @@
-select * from `final_project.order_detail`;
-
 -- Question1: Selama transaksi yang terjadi selama 2021, pada bulan apa total nilai transaksi (after_discount) paling besar?
 
 select 
@@ -112,6 +110,7 @@ from product
 where product.product_name is not NULL
 ORDER by 2 desc;
 
+--more specific whit product name
 select *
 from `final_project.sku_detail`
 where category = 'Mobiles & Tablets';
